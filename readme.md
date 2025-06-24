@@ -34,24 +34,24 @@ Articles/
 │   ├── main.py
 │   ├── test.py
 │   ├── readme.md  ← 📘 blog-style explanation
-│   └── __pycache__/
 │
-├── AnotherTopic/           ← Coming soon
-│   ├── main.py
-│   ├── readme.md
-│   └── test.py
+├── SCD2_CumulativeJoin/
+│   ├── readme.md  ← 📘 SQL-based article on SCD Type 2
 │
 └── README.md               ← You are here
+
 ```
 
 ---
 
+
 ## 📚 Published Articles
 
-| Topic                                      | Description                                                                                                                                          |
-| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`TextVectorization`](./TextVectorization) | Learn how to represent sentences as vectors and compute similarity using pure Python (no libraries). Ideal for beginners exploring NLP fundamentals. |
-| *(More coming soon)*                       | Stay tuned for articles on TF-IDF, Word2Vec, distributed systems concepts, and more.                                                                 |
+| Topic                                               | Description                                                                                                                                                 |
+|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`TextVectorization`](./TextVectorization)          | Learn how to represent sentences as vectors and compute similarity using pure Python (no libraries). Ideal for beginners exploring NLP fundamentals.         |
+| [`SCD2_CumulativeJoin`](./SCD2_CumulativeJoin)      | Implement Slowly Changing Dimension Type 2 using SQL joins on daily snapshots. Includes detailed examples for PostgreSQL-compatible SQL workflows.          |
+| *(More coming soon)*                                | Stay tuned for articles on TF-IDF, Word2Vec, distributed systems concepts, and more.                                                                        |
 
 ---
 
@@ -79,7 +79,6 @@ This repo isn’t just a code dump — it’s a **thinking space**, built to hel
 
 * Me reinforce concepts through writing and coding
 * Others get started with clean, real-world examples
-* Showcase my understanding and teaching ability to the community and recruiters
 
 ---
 
