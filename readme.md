@@ -1,98 +1,95 @@
-
 # 🧠 Articles by Nikhil Mhatre
 
-Welcome to **Articles**, a curated collection of hands-on, code-driven write-ups on topics I’m learning, exploring, or building in the world of **Data Engineering**, **Machine Learning**, and **Computer Science**.
+Welcome to **Articles**, a collection of hands-on, code-focused write-ups on practical topics in **Data Engineering**, **Machine Learning**, and **Computer Science**.
 
-This repository serves as the **main entry point** for anyone looking to read, learn, or experiment with the concepts I’ve documented — all backed by clean code and simple explanations.
+This repo is my public learning space—a place for sharing, referencing, and experimenting with new concepts, with clean code and simple explanations for each article.
 
 ---
 
 ## 🎯 Purpose
 
-The goal of this repository is to:
-
-* Share **conceptual deep-dives** in a practical way
+* Share **practical deep-dives** with working code
 * Document my **learning journey** in public
-* Provide **clean, runnable code** alongside each article
-* Create a reference space for **interview prep**, **experimentation**, and **portfolio showcase**
+* Create a reference for **interview prep**, **portfolio**, and **experiments**
 
 ---
 
-## 📂 Repository Structure
+## 📂 Structure
 
-Each topic or article lives in its **own subdirectory**, containing:
+Each article is a **self-contained folder** with:
 
-* A blog-style `README.md` explaining the concept
-* Python code (`main.py`, notebooks, etc.) that demonstrates the idea
-* A `test.py` file with unit tests wherever applicable
-* Future expansion: diagrams, Jupyter notebooks, or visual demos
+* `readme.md`: Blog-style explanation (diagrams, code, best practices)
+* Source code (`main.py`, notebooks, etc.)
+* Optional: `test.py` for unit tests, or visual demos
 
 ```
 Articles/
 │
+├── Parquet/
+│   ├── main.py
+│   ├── readme.md     # Parquet storage deep-dive
+│
 ├── TextVectorization/
 │   ├── main.py
 │   ├── test.py
-│   ├── readme.md  ← 📘 blog-style explanation
+│   ├── readme.md
 │
 ├── SCD2_CumulativeJoin/
-│   ├── readme.md  ← 📘 SQL-based article on SCD Type 2
+│   ├── readme.md
 │
-└── README.md               ← You are here
-
+└── README.md         # ← You are here
 ```
 
 ---
 
+## 📚 Articles Index
 
-## 📚 Published Articles
-
-| Topic                                               | Description                                                                                                                                                 |
-|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`TextVectorization`](./TextVectorization)          | Learn how to represent sentences as vectors and compute similarity using pure Python (no libraries). Ideal for beginners exploring NLP fundamentals.         |
-| [`SCD2_CumulativeJoin`](./SCD2_CumulativeJoin)      | Implement Slowly Changing Dimension Type 2 using SQL joins on daily snapshots. Includes detailed examples for PostgreSQL-compatible SQL workflows.          |
-| *(More coming soon)*                                | Stay tuned for articles on TF-IDF, Word2Vec, distributed systems concepts, and more.                                                                        |
+| Topic                                          | Description                                                                             |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [`Parquet`](./Parquet)                         | Columnar storage format for big data. Features, best practices, code, and architecture. |
+| [`TextVectorization`](./TextVectorization)     | Pure Python vectorization and similarity scoring for NLP.                               |
+| [`SCD2_CumulativeJoin`](./SCD2_CumulativeJoin) | How to implement SCD Type 2 using SQL joins on daily data snapshots.                    |
+| *(More coming soon)*                           | Look out for guides on TF-IDF, Word2Vec, distributed systems, and more.                 |
 
 ---
 
-## 🚀 How to Use This Repo
+## 🚀 Getting Started
 
-### 🧭 To Read
+**To Read:**
+Open any subfolder and read the `readme.md` for an article-style explanation.
 
-Navigate into any subfolder and read the `readme.md` — each one is written like a standalone article or blog post.
-
-### ⚙️ To Run Code
-
-All code is designed to be minimal and runnable:
+**To Run Code:**
+Code is clean, minimal, and executable. Example:
 
 ```bash
-cd TextVectorization
-python main.py       # runs vectorization + similarity logic
-python test.py       # runs unit tests
+cd Parquet
+python main.py
 ```
 
----
-
-## 🧱 Philosophy
-
-This repo isn’t just a code dump — it’s a **thinking space**, built to help:
-
-* Me reinforce concepts through writing and coding
-* Others get started with clean, real-world examples
+Add your own data or tweak code as needed!
 
 ---
 
-## 👨‍💻 About Me
+## 🧱 Repo Philosophy
+
+This isn’t just a code dump.
+I write to reinforce my own learning and to help others get started with real, working examples.
+
+---
+
+## 👤 About
 
 **Nikhil Mhatre**
-🔧 Data Engineer | 📊 Systems Thinker | 🧠 Lifelong Learner
-📎 [Portfolio](https://mhatrenikhil36.github.io/me/
-) • [GitHub](https://github.com/MhatreNikhil36) • [LinkedIn](https://linkedin.com/in/nikhil-nandkumar-mhatre)
+Data Engineer | Systems Thinker | Lifelong Learner
+[Portfolio](https://mhatrenikhil36.github.io/me/) • [GitHub](https://github.com/MhatreNikhil36) • [LinkedIn](https://linkedin.com/in/nikhil-nandkumar-mhatre)
 
----
 
 ## 🤝 Contributions
 
-Not currently open to external contributions — but feel free to fork, adapt, or share feedback.
+Not open to external PRs for now.
+Feedback, forks, and shares welcome!
+If this helped you, let me know—always happy to connect.
 
-If you’re learning something from this repo, let me know — I’d love to connect!
+---
+
+**Happy learning & building!**
